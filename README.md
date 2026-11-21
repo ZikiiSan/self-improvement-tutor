@@ -1,7 +1,5 @@
 # Self-Improvement Tutor
 
-## 中文
-
 本项目基于 Jane Street 的 Agent Skills 中的 Socratic Tutor 改进。导师先用例子讲解，再一次问一个问题，根据你的回答决定下一步。[Jane Street 原版](https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md)
 
 - **用代码验证，让讲解、练习和反馈保持连贯。** 比如讲解折扣回报时，练习沿用例题的奖励序列和折扣系数。导师用代码逐步核对你给出的回报，并用同一个例子解释差异。[查看验证示例](skills/socratic-tutor/references/verifiers.md#worked-example-discounted-return)
@@ -13,8 +11,6 @@
 1. 开始时说「用 socratic-tutor 教我...」。
 2. 离开前说「把我的学习进度和待答问题保存到 `TEACHING_STATE.md`」。
 3. 把文件复制到新设备的课程目录，再说「用 socratic-tutor 读取 `TEACHING_STATE.md`，从上次的问题继续」。
-
-## English
 
 This project builds on Socratic Tutor from Jane Street’s Agent Skills. The tutor works through an example, asks one question at a time, and uses your answer to decide what to teach next. [Original Jane Street skill](https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md)
 
