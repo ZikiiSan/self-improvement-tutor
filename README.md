@@ -10,7 +10,7 @@
 **在 Codex 中使用**  
 在每台设备上，把仓库中的 `skills/socratic-tutor` 文件夹复制到 Codex 的用户 skills 目录（例如 `~/.codex/skills/`），然后在课程目录打开新会话。
 
-1. 开始时说「用 socratic-tutor 教我折扣回报」。
+1. 开始时说「用 socratic-tutor 教我...」。
 2. 离开前说「把我的学习进度和待答问题保存到 `TEACHING_STATE.md`」。
 3. 把文件复制到新设备的课程目录，再说「用 socratic-tutor 读取 `TEACHING_STATE.md`，从上次的问题继续」。
 
@@ -24,6 +24,6 @@ This project builds on Socratic Tutor from Jane Street’s Agent Skills. The tut
 **Use it in Codex**  
 On each device, copy the repository’s `skills/socratic-tutor` folder into your Codex user skills directory (for example, `~/.codex/skills/`). Open a new session in your course folder.
 
-1. Start with “Use socratic-tutor to teach me discounted returns.”
+1. Start with “Use socratic-tutor to teach me ...”
 2. Before you leave, ask “Save my progress and pending question to `TEACHING_STATE.md`.”
 3. Copy the file to the course folder on your other device and ask “Use socratic-tutor to read `TEACHING_STATE.md` and pick up at the pending question.”
