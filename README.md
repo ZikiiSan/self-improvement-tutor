@@ -12,6 +12,8 @@
 2. 离开前说「把我的学习进度和待答问题保存到 `TEACHING_STATE.md`」。
 3. 把文件复制到新设备的课程目录，再说「用 socratic-tutor 读取 `TEACHING_STATE.md`，从上次的问题继续」。
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 This project builds on Socratic Tutor from Jane Street’s Agent Skills. The tutor works through an example, asks one question at a time, and uses your answer to decide what to teach next. [Original Jane Street skill](https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md)
 
 - **Executable checks keep explanations, exercises, and feedback consistent.** In a lesson on discounted returns, the exercise uses the same rewards and discount factor as the worked example. The tutor checks your return at each step and uses that same episode to explain any discrepancy. [See the verifier example](skills/socratic-tutor/references/verifiers.md#worked-example-discounted-return)
